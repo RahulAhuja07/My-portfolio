@@ -1,17 +1,52 @@
-<<<<<<< HEAD
-# React + Vite
+# My Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A dynamic and responsive personal portfolio website built with React and Tailwind CSS. This project showcases my skills, projects, and contact information in a clean, modern, and engaging user interface.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-   **Responsive Design:** Optimized for a seamless experience on all devices, from mobile phones to large desktops.
+-   **Light/Dark Theme:** A user-friendly theme toggle that saves the user's preference for future visits.
+-   **Custom Animations:** Smooth, custom-built CSS animations for the hero section, background stars, and meteors to create a unique and memorable visual experience.
+-   **Project Showcase:** A dedicated section to highlight my featured projects with descriptions and links.
+-   **Contact Section:** An easy-to-use section for getting in touch, with links to my email, phone, and social media.
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# My-portfolio
-A modern and responsive personal portfolio website built with React and Tailwind CSS.
->>>>>>> a913cfb9b90ab8fd5955b1875481490a2b8481bd
+-   **React:** A JavaScript library for building user interfaces.
+-   **Vite:** A fast build tool that provides a lightning-fast development experience.
+-   **Tailwind CSS:** A utility-first CSS framework for rapid and responsive UI development.
+-   **PostCSS:** A tool for transforming CSS with JavaScript plugins.
+-   **Lucide-React:** A collection of beautiful and customizable icons.
+-   **clsx & tailwind-merge:** Utilities for conditionally joining and merging Tailwind CSS classes.
+
+## 📦 Getting Started
+
+### Prerequisites
+
+-   Node.js (v18 or higher)
+-   npm or yarn
+
+### Installation
+
+1.  Clone the repository:
+    ```bash
+    git clone [https://github.com/YourUsername/your-portfolio-repo.git](https://github.com/YourUsername/your-portfolio-repo.git)
+    ```
+2.  Navigate into the project directory:
+    ```bash
+    cd your-portfolio-repo
+    ```
+3.  Install the dependencies:
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
+
+### Development
+
+To run the project in development mode:
+```bash
+npm run dev
+# or
+yarn dev
